@@ -1,0 +1,48 @@
+{
+    "id": "inquiry_form",
+    "name": "問い合わせフォーム",
+    "description": "顧客からの問い合わせを受け付けるためのフォーム型テンプレートです。",
+    "exampleSheetUrl": "https://docs.google.com/spreadsheets/d/your_inquiry_sheet_id",
+    "columns": [
+      {
+        "name": "名前",
+        "type": "text",
+        "input": true,
+        "editable": false,
+        "required": true
+      },
+      {
+        "name": "メールアドレス",
+        "type": "text",
+        "input": true,
+        "editable": false,
+        "required": true
+      },
+      {
+        "name": "件名",
+        "type": "text",
+        "input": true,
+        "editable": false,
+        "required": true
+      },
+      {
+        "name": "内容",
+        "type": "textarea",
+        "input": true,
+        "editable": false,
+        "required": true
+      },
+      {
+        "name": "送信日時",
+        "type": "date",
+        "input": false,
+        "editable": false
+      }
+    ],
+    "view": {
+      "layout": "form",
+      "searchable": false,
+      "filterable": false
+    }
+  }
+  

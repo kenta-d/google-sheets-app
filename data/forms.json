@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1748164852151",
+    "name": "問い合わせフォーム",
+    "templateId": "inquiry_form",
+    "spreadsheetId": "1sbknhHhEjlxLpAfC43RJw-ThC3bkPC897TM5Xj08xK4",
+    "columns": [
+      {
+        "name": "名前",
+        "type": "text",
+        "input": true,
+        "editable": false,
+        "required": true
+      },
+      {
+        "name": "メールアドレス",
+        "type": "text",
+        "input": true,
+        "editable": false,
+        "required": true
+      },
+      {
+        "name": "件名",
+        "type": "text",
+        "input": true,
+        "editable": false,
+        "required": true
+      },
+      {
+        "name": "内容",
+        "type": "textarea",
+        "input": true,
+        "editable": false,
+        "required": true
+      },
+      {
+        "name": "送信日時",
+        "type": "date",
+        "input": false,
+        "editable": false
+      }
+    ],
+    "createdAt": "2025-05-25T09:20:52.151Z",
+    "updatedAt": "2025-05-25T09:20:52.151Z"
+  }
+]

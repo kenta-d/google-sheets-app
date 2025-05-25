@@ -1,0 +1,35 @@
+{
+    "id": "reservation",
+    "name": "予約管理",
+    "description": "顧客の予約情報を簡単に管理できるテンプレートです。",
+    "exampleSheetUrl": "https://docs.google.com/spreadsheets/d/xxxxx",
+    "columns": [
+      {
+        "name": "日付",
+        "type": "date",
+        "input": true,
+        "editable": true,
+        "required": true
+      },
+      {
+        "name": "顧客名",
+        "type": "text",
+        "input": true,
+        "editable": true,
+        "required": true
+      },
+      {
+        "name": "メニュー",
+        "type": "select",
+        "options": ["カット", "カラー", "パーマ"],
+        "input": true,
+        "editable": true
+      }
+    ],
+    "view": {
+      "layout": "table", 
+      "searchable": true,
+      "filterable": true
+    }
+  }
+  
